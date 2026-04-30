@@ -1,0 +1,41 @@
+# Secrets and local config
+.env
+.streamlit/secrets.toml
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches/build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated spreadsheet/report artifacts
+outputs/*.xlsx
+outputs/*.docx
+outputs/*.pdf
+
+# Keep prepared CSV outputs if you want the lightweight generated datasets in Git.
+# If you do NOT want generated CSVs in GitHub, uncomment the next line:
+# outputs/*.csv
+
+# Large model/local database artifacts
+*.sqlite
+*.db
+*.pt
+*.pth
+*.onnx
