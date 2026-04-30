@@ -1,6 +1,6 @@
 # MA-Rank: Multi-Agent Resume Screening and Skill Mining
 
-This is the recruiter-facing project described in `Group16_ProgessReport.docx`. It references the older `Agentic-Career-Assistant-main` project, but keeps this version cleaner and focused on recruiter workflows:
+This is the recruiter-facing project described in `Group16_ProgessReport.docx`. This version cleaner and focused on recruiter workflows:
 
 - job description intake
 - resume/job parsing into structured fields
